@@ -12,6 +12,10 @@ const FooterContainer = styled.div`
 const Content = styled.div`
   display: flex;
   margin: 4rem 0 4rem 8rem;
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+    margin: 1rem 0 1rem 2rem;
+  }
 `;
 
 const InfoPanel = styled.div`
@@ -24,12 +28,11 @@ const InfoPanel = styled.div`
 const RightSide = styled.div`
   display: flex;
   flex-direction: row;
-  margin: 10px;
   width: 100%;
 `;
 
 const ExporePanel = styled.div`
-  width: 200px;
+  width: 80%;
 `;
 
 const Links = styled.div`
@@ -88,11 +91,11 @@ function Footer() {
               <RedirectLink to='/link3'>Link3</RedirectLink>
             </Links>
           </ExporePanel>
-          <BackToTop>
+          {/* <BackToTop>
             <NewTabButton onClick={scrollToTop}>
               <FaArrowAltCircleUp />
             </NewTabButton>
-          </BackToTop>
+          </BackToTop> */}
         </RightSide>
       </Content>
     </FooterContainer>

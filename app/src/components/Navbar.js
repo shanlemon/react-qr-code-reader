@@ -37,6 +37,8 @@ const MenuIcon = styled.div`
 
 const NavMenu = styled.ul`
   display: flex;
+  padding: 0;
+  margin: 0;
 
   @media screen and (min-width: 960px) {
     justify-content: center;
@@ -48,7 +50,7 @@ const NavMenu = styled.ul`
     flex-direction: column;
     position: absolute;
     background: black;
-    height: 90vh;
+    height: calc(100vh - 85px);
     top: 80px;
     left: ${(props) => (props.active ? '0' : '-100%')};
     width: 100%;
@@ -62,6 +64,7 @@ const NavItem = styled.li`
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-bottom: 2px solid transparent;
   @media screen and (max-width: 960px) {
     height: 100%;

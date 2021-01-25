@@ -10,6 +10,7 @@ const MainWrapper = styled.div`
 function HomeRouteRoute() {
   return (
     <MainWrapper>
+      This is the home route
     </MainWrapper>
   );
 }
