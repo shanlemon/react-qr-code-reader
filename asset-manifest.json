@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2403186.chunk.css",
-    "main.js": "/static/js/main.b81eb4c1.chunk.js",
-    "main.js.map": "/static/js/main.b81eb4c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dd450042.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dd450042.js.map",
-    "static/js/2.ffa08dcc.chunk.js": "/static/js/2.ffa08dcc.chunk.js",
-    "static/js/2.ffa08dcc.chunk.js.map": "/static/js/2.ffa08dcc.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.e2403186.chunk.css.map": "/static/css/main.e2403186.chunk.css.map",
-    "static/js/2.ffa08dcc.chunk.js.LICENSE.txt": "/static/js/2.ffa08dcc.chunk.js.LICENSE.txt"
+    "main.css": "/react-qr-code-reader/static/css/main.e2403186.chunk.css",
+    "main.js": "/react-qr-code-reader/static/js/main.b81eb4c1.chunk.js",
+    "main.js.map": "/react-qr-code-reader/static/js/main.b81eb4c1.chunk.js.map",
+    "runtime-main.js": "/react-qr-code-reader/static/js/runtime-main.d20d4741.js",
+    "runtime-main.js.map": "/react-qr-code-reader/static/js/runtime-main.d20d4741.js.map",
+    "static/js/2.43455cc5.chunk.js": "/react-qr-code-reader/static/js/2.43455cc5.chunk.js",
+    "static/js/2.43455cc5.chunk.js.map": "/react-qr-code-reader/static/js/2.43455cc5.chunk.js.map",
+    "index.html": "/react-qr-code-reader/index.html",
+    "static/css/main.e2403186.chunk.css.map": "/react-qr-code-reader/static/css/main.e2403186.chunk.css.map",
+    "static/js/2.43455cc5.chunk.js.LICENSE.txt": "/react-qr-code-reader/static/js/2.43455cc5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd450042.js",
-    "static/js/2.ffa08dcc.chunk.js",
+    "static/js/runtime-main.d20d4741.js",
+    "static/js/2.43455cc5.chunk.js",
     "static/css/main.e2403186.chunk.css",
     "static/js/main.b81eb4c1.chunk.js"
   ]
