@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import QRScanner from "./QRScanner";
 
 const MainWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
 `;
  
 
 function HomeRouteRoute() {
   return (
     <MainWrapper>
-      This is the home route
+      <QRScanner />
     </MainWrapper>
   );
 }

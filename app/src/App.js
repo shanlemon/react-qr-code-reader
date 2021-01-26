@@ -13,6 +13,7 @@ const GlobalWrapper = styled.div`
 
 const MainWrapper = styled.div`
   flex: 1;
+  padding: 0 50px;
 `;
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
             <Route path='/' exact component={Home} />
           </Switch>
         </MainWrapper>
-        <Footer />
       </GlobalWrapper>
     </Router>
   );
