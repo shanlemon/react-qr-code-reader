@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <IconContext.Provider value={{ color: 'black' }}>
       <NavBar>
-        <NavbarLogo to='/'>
+        <NavbarLogo to='/react-qr-code-reader'>
           <h2>QR Scan and Generator</h2>
         </NavbarLogo>
       </NavBar>

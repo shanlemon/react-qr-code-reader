@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <MainWrapper>
           <Switch>
-            <Route path='/' exact component={Home} />
+            <Route path='/react-qr-code-reader' exact component={Home} />
           </Switch>
         </MainWrapper>
       </GlobalWrapper>

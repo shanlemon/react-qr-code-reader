@@ -13,7 +13,7 @@ export default function QRScanner() {
   };
 
   const handleError = (err) => {
-    console.error(err);
+    setResult('error')
   };
 
   const previewStyle = {
